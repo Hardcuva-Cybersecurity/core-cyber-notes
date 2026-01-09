@@ -1,0 +1,155 @@
+
+
+_Source: Cisco Introduction to Cybersecurity_
+
+---
+
+## What is Cybersecurity?
+- Protection of systems, networks, apps, and data
+- Focus areas:
+  - Prevention
+  - Detection
+  - Response
+  - Recovery
+- Assumption: **systems will be attacked**
+
+---
+
+## CIA Triad
+
+### Confidentiality
+- Prevents unauthorized access to data
+- Controls:
+  - Encryption
+  - Access control
+  - Network segmentation
+- Attacker focus:
+  - Credential theft
+  - Misconfigured permissions
+  - Data leaks
+
+---
+
+### Integrity
+- Ensures data is not altered improperly
+- Controls:
+  - Hashing
+  - Digital signatures
+  - File integrity monitoring
+- Attacker focus:
+  - Data tampering
+  - MITM attacks
+  - Config manipulation
+
+---
+
+### Availability
+- Ensures systems remain accessible
+- Controls:
+  - Redundancy
+  - Backups
+  - DDoS protection
+- Attacker focus:
+  - DoS attacks
+  - Ransomware
+  - Resource exhaustion
+
+---
+
+## Defense in Depth
+- Use **multiple security layers**
+- No single control is trusted
+- Common layers:
+  - Physical
+  - Network
+  - Host
+  - Application
+  - Identity
+  - Monitoring
+- Goal:
+  - Slow attackers
+  - Increase detection
+  - Reduce blast radius
+
+---
+
+## Least Privilege
+- Users/systems get **minimum required access**
+- Examples:
+  - No default admin access
+  - Role-based permissions
+  - Time-limited access
+- Common failure:
+  - Over-permissioned accounts → privilege escalation
+
+---
+
+## Zero Trust (High-Level)
+- Trust nothing by default
+- Verify:
+  - Identity
+  - Device
+  - Context
+- Core ideas:
+  - Verify explicitly
+  - Use least privilege
+  - Assume breach
+- Common use:
+  - Cloud
+  - Remote access
+  - Hybrid networks
+
+---
+
+## Security Controls
+
+### Preventive
+- Stop attacks before they happen
+- Examples:
+  - Firewalls
+  - MFA
+  - Access control lists
+
+---
+
+### Detective
+- Identify attacks or violations
+- Examples:
+  - Logs
+  - IDS/IPS
+  - Security monitoring
+
+---
+
+### Corrective
+- Reduce impact after incident
+- Examples:
+  - Backups
+  - Incident response
+  - System recovery
+
+---
+
+## Threat vs Vulnerability vs Risk
+
+### Threat
+- Anything capable of causing harm
+- Examples:
+  - Malware
+  - Hackers
+  - Insider abuse
+
+---
+
+### Vulnerability
+- Weakness that can be exploited
+- Examples:
+  - Weak passwords
+  - Unpatched software
+  - Misconfigurations
+
+---
+
+### Risk
+- Impact of threat exploiting vulnerability
+- Model:
